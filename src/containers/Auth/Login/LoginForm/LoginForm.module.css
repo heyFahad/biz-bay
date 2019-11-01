@@ -1,0 +1,19 @@
+.LoginButton {
+    margin-top: 1.75rem;
+}
+
+.ResetPassword {
+    margin-top: 1.5rem;
+    color: white;
+}
+
+.ResetPassword a {
+    text-decoration: none;
+    color: #435E8C;
+    font-size: 1.125rem;
+}
+
+.ResetPassword a:hover,
+.ResetPassword a.active {
+    color: #5587E3;
+}

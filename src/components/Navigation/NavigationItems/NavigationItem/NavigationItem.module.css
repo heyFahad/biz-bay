@@ -1,0 +1,16 @@
+.NavigationItem {
+    margin: 0 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.NavigationItem a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a.active {
+    color: #5587E3;
+}

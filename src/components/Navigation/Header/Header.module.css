@@ -1,0 +1,24 @@
+.Header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.CTA a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.375rem;
+}
+
+.CTA a:hover,
+.CTA a.active {
+    color: #5587E3;
+}

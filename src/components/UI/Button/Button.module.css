@@ -1,0 +1,29 @@
+.Button {
+    color: white;
+    background-color: #5587E3;
+    border: 1px solid #5587E3;
+    font: inherit;
+    font-size: 1.25rem;
+    padding: 0.8rem 2rem;
+    border-radius: 1.7rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.Button:disabled {
+    cursor: not-allowed;
+}
+
+.Button:focus {
+    box-shadow: 0 0 0 2px #FFF, 0 0 0 4px #71C9F8;
+}
+
+.Button:hover,
+.Button:active {
+    background-color: #006DBF;
+    border-color: #006DBF;
+}
+
+.Button:active {
+    box-shadow: 0 0 0 2px #FFF, 0 0 0 4px #5587E3;
+}

@@ -1,0 +1,9 @@
+.Modal {
+    background-color: white;
+    padding: 32px;
+    position: fixed;
+    z-index: 2000;
+    min-width: 675px;
+    top: 25%;
+    left: calc(50% - 337.5px);
+}
