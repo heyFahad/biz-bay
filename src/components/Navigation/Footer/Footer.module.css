@@ -1,18 +1,19 @@
 .Footer {
-    margin-top: 3.5rem;
-    background: black;
-    color: white;
-    height: 17rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+  margin-top: 3.5rem;
+  background: black;
+  color: white;
+  height: 17rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .Copyright {
-    font-size: 1.25rem;
+  font-size: 1.25rem;
+  text-align: center;
 }
 
 .Trademark {
-    font-weight: bold;
-    font-style: italic;
+  font-weight: bold;
+  font-style: italic;
 }

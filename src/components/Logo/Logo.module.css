@@ -1,4 +1,7 @@
+.Logo {
+  text-align: center;
+}
 .Logo img {
-    height: 3rem;
-    vertical-align: bottom;
+  height: 3rem;
+  vertical-align: bottom;
 }

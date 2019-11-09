@@ -1,40 +1,40 @@
 .LoginWidget {
-    width: 24.5rem;
-    height: 26.5rem;
-    border-radius: 0.75rem;
-    background-color: rgba(31, 31, 31, 0.8);
-    position: absolute;
-    z-index: 10;
-    left: 5.75rem;
-    top: 6.75rem;
-    overflow: hidden;
+  width: 24.5rem;
+  height: 26.5rem;
+  border-radius: 0.75rem;
+  background-color: rgba(31, 31, 31, 0.8);
+  position: absolute;
+  z-index: 10;
+  left: 5.75rem;
+  top: 6.75rem;
+  overflow: hidden;
 }
 
 .Login,
 .SignUp {
-    width: 50%;
-    border: 0;
-    margin: 0;
-    outline: 0;
-    font: inherit;
-    font-size: 1.875rem;
-    font-weight: 500;
-    padding: 1.125rem 0;
-    text-align: center;
-    text-decoration: none;
-    cursor: pointer;
+  width: 50%;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  font: inherit;
+  font-size: 1.875rem;
+  font-weight: 500;
+  padding: 1.125rem 0;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .Login {
-    background-color: #CFD0D2;
-    color: black;
+  background-color: #cfd0d2;
+  color: black;
 }
 
 .SignUp {
-    background-color: #4C6EC4;
-    color: white;
+  background-color: #4c6ec4;
+  color: white;
 }
 
 .LoginForm {
-    padding: 3rem;
+  padding: 3rem;
 }

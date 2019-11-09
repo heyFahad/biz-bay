@@ -1,28 +1,28 @@
 .Input {
-    font: inherit;
-    font-size: 1.25rem;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  font: inherit;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .Label {
-    padding-left: 1rem;
-    font-weight: bold;
+  padding-left: 1rem;
+  font-weight: bold;
 }
 
 .InputElement {
-    width: 100%;
-    outline: none;
-    font: inherit;
-    font-size: 1.25rem;
-    border: 1px solid #90ABE4;
-    border-radius: 0.75rem;
-    background-color: #D0D0D0;
-    padding: 0.5rem 1rem;
-    margin-bottom: 1.25rem;
+  width: 100%;
+  outline: none;
+  font: inherit;
+  font-size: 1.25rem;
+  border: 1px solid #90abe4;
+  border-radius: 0.75rem;
+  background-color: #d0d0d0;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.25rem;
 }
 
 .Invalid {
-    border: 2px solid red;
+  border: 2px solid red;
 }

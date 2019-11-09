@@ -12,22 +12,23 @@ import FirebaseApp, { FirebaseContext } from './firebase';
 import * as serviceWorker from './serviceWorker';
 
 const rootReducer = combineReducers({
-    firebase: firebaseReducer
+  firebase: firebaseReducer
 });
-const composeEnhancers = (typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) || compose;
-const enhancer = composeEnhancers(
-    applyMiddleware(thunk)
-);
+const composeEnhancers =
+  (typeof window !== 'undefined' &&
+    window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__) ||
+  compose;
+const enhancer = composeEnhancers(applyMiddleware(thunk));
 const store = createStore(rootReducer, enhancer);
 
 const app = (
-    <Provider store={store}>
-        <BrowserRouter>
-            <FirebaseContext.Provider value={new FirebaseApp()}>
-                <App />
-            </FirebaseContext.Provider>
-        </BrowserRouter>
-    </Provider>
+  <Provider store={store}>
+    <BrowserRouter>
+      <FirebaseContext.Provider value={new FirebaseApp()}>
+        <App />
+      </FirebaseContext.Provider>
+    </BrowserRouter>
+  </Provider>
 );
 ReactDOM.render(app, document.getElementById('root'));
 

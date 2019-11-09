@@ -1,17 +1,17 @@
 import * as actionTypes from './actionTypes';
 
 export const userSignedIn = () => {
-    return {
-        type: actionTypes.USER_SIGNED_IN,
-        isAuthenticated: true
-    };
+  return {
+    type: actionTypes.USER_SIGNED_IN,
+    isAuthenticated: true
+  };
 };
 
 export const userSignedOut = () => {
-    return {
-        type: actionTypes.USER_SIGNED_OUT,
-        isAuthenticated: false
-    };
+  return {
+    type: actionTypes.USER_SIGNED_OUT,
+    isAuthenticated: false
+  };
 };
 
 /* export const handleSignUpRequest = ({ displayName, email, phoneNo, password }) => {

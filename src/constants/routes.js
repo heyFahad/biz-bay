@@ -1,7 +1,7 @@
 export const LANDING_PAGE = '/';
 export const HOME = '/home';
 export const CITIES = '/cities';
-export const INFLUENCERS = '/influencers';
+export const TOP_RATED_INFLUENCERS = '/top-rated-influencers';
 export const DESIGNS = '/designs';
 export const SUPPORT = '/support';
 export const ABOUT = '/about';

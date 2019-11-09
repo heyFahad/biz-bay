@@ -1,4 +1,1 @@
-export {
-    userSignedIn,
-    userSignedOut
-} from './firebase';
+export { userSignedIn, userSignedOut } from './firebase';
